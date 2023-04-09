@@ -1,0 +1,133 @@
+/* Global styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #111111;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Header */
+header {
+  background-color: #111111;
+  padding: 20px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+h1 {
+  margin: 0;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-left: 30px;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+nav a:hover {
+  color: #dd3333;
+}
+
+/* Hero section */
+#destaque {
+  background-image: url(https://tinypic.host/images/2023/04/08/awakeningjourney-terence-mckenna-the-role-of-psychedelics-in-generating-new-ideas.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  margin: 0;
+  font-size: 50px;
+  color: #ffffff;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 24px;
+  color: #ffffff;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-top: 30px;
+  letter-spacing: 1px;
+}
+
+.botao-destaque {
+  display: inline-block;
+  background-color: #dd3333;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 15px 50px;
+  margin-top: 50px;
+  border-radius: 50px;
+  transition: all 0.2s ease-in-out;
+  letter-spacing: 1px;
+}
+
+.botao-destaque:hover {
+  background-color: #ffffff;
+  color: #dd3333;
+  border: 2px solid #dd3333;
+}
+
+/* Products section */
+#produtos {
+  padding: 100px 0;
+  text-align: center;
+  background-color: #222222;
+}
+
+#produtos h2 {
+  font-size: 40px;
+  margin-bottom: 50px;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+#produtos ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#produtos li {
+  margin: 20px;
+  max-width: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 2px 10px rgba(255, 255,
